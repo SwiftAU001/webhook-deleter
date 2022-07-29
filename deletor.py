@@ -25,7 +25,7 @@ webhook = input(f"{Fore.CYAN}Input the webhook: ")
 
 time.sleep(0.5)
 main = input("""Please Select an option:
-[+] 2. Delete a webhook
+[+] 1. Delete a webhook
 """)
 
 resp = requests.delete(webhook)
